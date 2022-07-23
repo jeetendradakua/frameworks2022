@@ -18,7 +18,7 @@ public class LoginPage {
 	// 1. private by locators:
 	private By emailId = By.id("input-email");
 	private By password = By.id("input-password");
-	private By forgetPassword = By.linkText("Forgotten Password11");
+	private By forgetPassword = By.linkText("Forgotten Password");
 	private By loginBtn = By.xpath("//input[@type = 'submit' and @value = 'Login']");
 	private By registerLink = By.linkText("Register");
 	private By loginErrorMessg = By.cssSelector("div.alert.alert-danger.alert-dismissible");

@@ -121,6 +121,10 @@ public class DriverFactory {
 					ip = new FileInputStream("./src/test/resources/config/uat.config.properties");
 					break;
 
+				case "prod":
+					ip = new FileInputStream("./src/test/resources/config/config.properties");
+					break;
+					
 				default:
 					System.out.println("please pass the right env.:" + envName);
 					break;
